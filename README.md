@@ -1,7 +1,7 @@
 # TestBackend
 Ejercicio telefonia Backend
 
-  Servidor NODE js - Espress, endpoint REST para obtener factura telefonica de cliente
+  Servidor NODE js - Express, endpoint REST para obtener factura telefonica de cliente
 
 Instalación
 
