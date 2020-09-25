@@ -29,7 +29,7 @@ Instalación
   
 #Ejecución 
     
-   Usando user POSTMAN/INSOMNIA: 
+   Usando POSTMAN/INSOMNIA: 
    
    [URL] 
    GET - http://localhost:4000/api/consumos
