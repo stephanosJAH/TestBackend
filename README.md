@@ -49,7 +49,7 @@ Instalación
     
     periodos [ 1 mensual ] [ 2 anual ]
     
-#CONCLUCIONES Y ACLARACIONES 
+#CONCLUSIONES Y ACLARACIONES 
 
 1 - La tabla de llamadas no cuenta con más registros, considerando que con los que tiene alcanza para las pruebas generales. 
 
