@@ -54,7 +54,7 @@ Instalación
 1 - La tabla de llamadas no cuenta con más registros, considerando que con los que tiene alcanza para las pruebas generales. 
 
 2 – NOMBRE DE VARIABLES: opte por escribirlas en castellano para que sea uniforme en todo el código. Con esto busco dar mayor claridad en el código a simple vista. 
-    Y camelcase por estándar de javascrip. 
+    Y camelcase por estándar  de javascrip. 
     
 3 – LLAMADAS INTERNACIONALES: para el supuesto caso de las llamadas internaciones exceptuadas de URU/CHI, no está aclarado en el enunciado, el valor de las mismas. 
     Por lo que me incline por darle el valor de nacionales (día de semana), opte por no incluí el filtro de días de semana o días de fin de semana. 
