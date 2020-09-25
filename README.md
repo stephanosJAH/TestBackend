@@ -49,17 +49,12 @@ Instalación
     
     periodos [ 1 mensual ] [ 2 anual ]
     
-#CONCLUSIONES Y ACLARACIONES 
+#CONCLUSIONES Y ACLARACIONES
 
-1 - La tabla de llamadas no cuenta con más registros, considerando que con los que tiene alcanza para las pruebas generales. 
+1 - La tabla de llamadas no cuenta con más registros, entiendo que con los creados alcanza para las pruebas generales.
 
-2 – NOMBRE DE VARIABLES: opte por escribirlas en castellano para que sea uniforme en todo el código. Con esto busco dar mayor claridad en el código a simple vista. 
-    Y camelcase por estándar  de javascrip. 
-    
-3 – LLAMADAS INTERNACIONALES: para el supuesto caso de las llamadas internaciones exceptuadas de URU/CHI, no está aclarado en el enunciado, el valor de las mismas. 
-    Por lo que me incline por darle el valor de nacionales (día de semana), opte por no incluí el filtro de días de semana o días de fin de semana. 
-    
-4 – En el hipotético que esto fuera un proyecto real, considero como alternativa viable: 
-    Tener un proceso que corra periódicamente (a determinar) para el cálculo de los consumos de los usuarios. Creándose una tabla, donde tenga los acumuladores para las 
-    distintas llamadas y el valor de las mismas. De este modo, siempre tendríamos la mayor parte del periodo procesado. En el caso de solicitarse el consumo a facturar de un 
-    usuario (a demanda), restaría únicamente procesar el periodo entre en último proceso y el momento de la solicitud. Esto generaría mayor performance para el endpoint. 
+2 – NOMBRE DE VARIABLES: opté por escribirlas en castellano para que sea uniforme en todo el código a fin de dar mayor claridad en el código, a simple vista, y camelcase por estándar de javascrip.
+
+3 – LLAMADAS INTERNACIONALES: para el supuesto caso de las llamadas internaciones exceptuadas de URU/CHI, al no estar aclarado en el enunciado el valor de las mismas, me incliné por darle el valor de nacionales (día de semana), y no incluir el filtro de días de semana o días de fin de semana.
+
+4 – Finalmente, en el hipotético que fuera un proyecto real, considero como alternativa viable: tener un proceso que corra periódicamente (a determinar) para el cálculo de los consumos de los usuarios, creándose una tabla, que contenga los acumuladores para las distintas llamadas y el valor de las mismas. De este modo, siempre tendríamos la mayor parte del periodo procesado y en el caso de solicitarse el consumo a facturar de un usuario (a demanda), restaría únicamente procesar el periodo entre en último proceso y el momento de la solicitud, generandose mayor performance para el endpoint.
